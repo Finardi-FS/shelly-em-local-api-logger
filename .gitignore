@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+DOMOTIC-venv/
+env/
+ENV/
+.venv/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# MacOS e Linux
+.DS_Store
+Thumbs.db
+
+# Log, database, e dati temporanei
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.csv
+
+# File temporanei di sistema
+*.swp
+*.bak
+*.tmp
+
+# Secrets (in caso li usi in futuro)
+*.env
+.env.*
+
+# Pytest cache
+.pytest_cache/
+
+# Distribuzione
+build/
+dist/
+*.egg-info/
